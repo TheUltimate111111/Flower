@@ -1,0 +1,468 @@
+
+body {
+    background: url(fondo.jpg);
+		background-size: 100vw 100vh;
+		background-repeat: no-repeat;
+		animation-name:fondoc;
+		animation-duration:12s;
+		animation-iteration-count:infinite;
+        margin: 0;
+        overflow: hidden;
+  }
+  @keyframes fondoc{
+    0%{
+    background: url(fondo.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    transition-property:background;
+    transition-duration:4s;
+    }
+    50%{
+    background: url(foo.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    transition-property:background;
+    transition-duration:4s;
+    }
+    100%{
+    background: url(fondo.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    }
+    }
+ 
+    .mid {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      
+      background: radial-gradient(circle, #000, #ff5e00, #000);
+    
+      z-index: 4;
+    
+      background-size: 5px 5px;
+    
+      filter: drop-shadow(0 0 8px #682600);
+    }
+    .Petal1 {
+      position: absolute;
+      left: 40px;
+      z-index: 3;
+    
+      width: 120px;
+      height: 30px;
+      border-radius: 50%;
+    
+      background: radial-gradient(circle, #ff5e00, #ffbb00);
+    
+      filter: drop-shadow(0 0 5px #e05200);
+    }
+    
+    .Petal1.p1 {
+      transform: rotate(22.5deg);
+    }
+    .Petal1.p2 {
+      transform: rotate(67.5deg);
+    }
+    .Petal1.p3 {
+      transform: rotate(110.5deg);
+    }
+    .Petal1.p4 {
+      transform: rotate(157.5deg);
+    }
+    
+    .Petal2 {
+      position: absolute;
+      left: 0;
+      z-index: 2;
+    
+      width: 200px;
+      height: 40px;
+      border-radius: 50%;
+    
+      background: radial-gradient(circle, #ff5e00, #fbd702);
+    
+      filter: drop-shadow(0 0 5px #e05200);
+    }
+    .Petal2.p2 {
+      transform: rotate(90deg);
+    }
+    .Petal2.p3 {
+      transform: rotate(45deg);
+    }
+    
+    .Petal2.p4 {
+      transform: rotate(135deg);
+    }
+    
+    .Petal3 {
+      position: absolute;
+      left: 0px;
+      z-index: 1;
+    
+      width: 200px;
+      height: 40px;
+      border-radius: 50%;
+    
+      background: radial-gradient(circle, #ff5e00, #fbd702);
+    
+      filter: drop-shadow(0 0 2px #fbd702);
+    }
+
+    .Petal3.p1 {
+      transform: rotate(22.5deg);
+    }
+    .Petal3.p2 {
+      transform: rotate(67.5deg);
+    }
+    .Petal3.p3 {
+      transform: rotate(110.5deg);
+    }
+    .Petal3.p4 {
+      transform: rotate(157.5deg);
+    }
+    .mid2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        
+        background: radial-gradient(circle, #000, #ff5e00, #000);
+      
+        z-index: 4;
+      
+        background-size: 5px 5px;
+      
+        filter: drop-shadow(0 0 8px #682600);
+      }
+      .Petal21 {
+        position: absolute;
+        left: 40px;
+        z-index: 3;
+      
+        width: 120px;
+        height: 30px;
+        border-radius: 50%;
+      
+        background: radial-gradient(circle, #ff5e00, #ffbb00);
+      
+        filter: drop-shadow(0 0 5px #e05200);
+      }
+      
+      .Petal21.p1 {
+        transform: rotate(22.5deg);
+      }
+      .Petal21.p2 {
+        transform: rotate(67.5deg);
+      }
+      .Petal21.p3 {
+        transform: rotate(110.5deg);
+      }
+      .Petal21.p4 {
+        transform: rotate(157.5deg);
+      }
+      
+      .Petal22 {
+        position: absolute;
+        left: 0;
+        z-index: 2;
+      
+        width: 200px;
+        height: 40px;
+        border-radius: 50%;
+      
+        background: radial-gradient(circle, #ff5e00, #fbd702);
+      
+        filter: drop-shadow(0 0 5px #e05200);
+      }
+      .Petal22.p2 {
+        transform: rotate(90deg);
+      }
+      .Petal22.p3 {
+        transform: rotate(45deg);
+      }
+      
+      .Petal22.p4 {
+        transform: rotate(135deg);
+      }
+      
+      .Petal23 {
+        position: absolute;
+        left: 0px;
+        z-index: 1;
+      
+        width: 200px;
+        height: 40px;
+        border-radius: 50%;
+      
+        background: radial-gradient(circle, #ff5e00, #fbd702);
+      
+        filter: drop-shadow(0 0 2px #fbd702);
+      }
+  
+      .Petal23.p1 {
+        transform: rotate(22.5deg);
+      }
+      .Petal23.p2 {
+        transform: rotate(67.5deg);
+      }
+      .Petal23.p3 {
+        transform: rotate(110.5deg);
+      }
+      .Petal23.p4 {
+        transform: rotate(157.5deg);
+      }
+      .mid3 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        
+        background: radial-gradient(circle, #000, #ff5e00, #000);
+      
+        z-index: 4;
+      
+        background-size: 5px 5px;
+      
+        filter: drop-shadow(0 0 8px #682600);
+      }
+      .Petal31 {
+        position: absolute;
+        left: 40px;
+        z-index: 3;
+      
+        width: 120px;
+        height: 30px;
+        border-radius: 50%;
+      
+        background: radial-gradient(circle, #ff5e00, #ffbb00);
+      
+        filter: drop-shadow(0 0 5px #e05200);
+      }
+      
+      .Petal31.p1 {
+        transform: rotate(22.5deg);
+      }
+      .Petal31.p2 {
+        transform: rotate(67.5deg);
+      }
+      .Petal31.p3 {
+        transform: rotate(110.5deg);
+      }
+      .Petal31.p4 {
+        transform: rotate(157.5deg);
+      }
+      
+      .Petal32 {
+        position: absolute;
+        left: 0;
+        z-index: 2;
+      
+        width: 200px;
+        height: 40px;
+        border-radius: 50%;
+      
+        background: radial-gradient(circle, #ff5e00, #fbd702);
+      
+        filter: drop-shadow(0 0 5px #e05200);
+      }
+      .Petal32.p2 {
+        transform: rotate(90deg);
+      }
+      .Petal32.p3 {
+        transform: rotate(45deg);
+      }
+      
+      .Petal32.p4 {
+        transform: rotate(135deg);
+      }
+      
+      .Petal33 {
+        position: absolute;
+        left: 0px;
+        z-index: 1;
+      
+        width: 200px;
+        height: 40px;
+        border-radius: 50%;
+      
+        background: radial-gradient(circle, #ff5e00, #fbd702);
+      
+        filter: drop-shadow(0 0 2px #fbd702);
+      }
+  
+      .Petal33.p1 {
+        transform: rotate(22.5deg);
+      }
+      .Petal33.p2 {
+        transform: rotate(67.5deg);
+      }
+      .Petal33.p3 {
+        transform: rotate(110.5deg);
+      }
+      .Petal33.p4 {
+        transform: rotate(157.5deg);
+      }
+.flower {
+    /* Estilos de la flor */
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation: growAndShrink 4s linear infinite, rotateFlower 10s linear infinite;
+    transform-origin: center; /* Ajuste del origen de la transformación */
+    
+
+}
+.flower2 {
+    /* Estilos de la flor */
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    position: relative;
+    animation: growAndShrink 4s linear infinite, rotateFlower 10s linear infinite;
+    transform-origin: center; /* Ajuste del origen de la transformación */
+}
+.flower3 {
+    /* Estilos de la flor */
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation: growAndShrink 4s linear infinite, rotateFlower 10s linear infinite;
+    transform-origin: center; /* Ajuste del origen de la transformación */
+    
+
+}
+@keyframes growAndShrink {
+    0%, 100% {
+        transform: scale(1); /* Tamaño normal */
+    }
+    50% {
+        transform: scale(2); /* Agrandar */
+    }
+}
+
+@keyframes rotateFlower {
+    0% {
+        transform: rotate(0deg) scale(1); /* Tamaño normal */
+    }
+    100% {
+        transform: rotate(360deg) scale(1); /* Giro completo mientras mantiene el tamaño normal */
+    }
+}
+
+    .container {
+        position: absolute;
+        left: 10px; /* Ajusta la posición del contenedor a la izquierda */
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2; /* Asegura que el contenedor esté sobre otros elementos */
+    }
+    
+    .flower {
+        position: absolute;
+        left: 1000%; /* Centra la flor horizontalmente */
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .flower2 {
+        position: absolute;
+        left: 1200%; /* Centra la flor horizontalmente */
+        top: 30%;
+        transform: translate(-50%, -50%);
+    }
+    .flower3 {
+        position: absolute;
+        left: 1100%; /* Centra la flor horizontalmente */
+        top: -100%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .gato {
+        position: relative;
+        left: 50px;
+        top: 50px;
+        width: 150px;
+        height: 150px; /* Para mantener la proporción original */
+    }
+    .text-container {
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    }
+    
+    .text-container p {
+        margin: 0;
+    }
+    
+    
+    @keyframes appearDisappear {
+        0%, 100% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+    }
+    .tallo {
+        width: 10px; /* Ancho del tallo */
+        height: 100px; /* Altura del tallo */
+        background-color: green; /* Color del tallo */
+        border-radius: 5px; /* Bordes redondeados */
+        position: absolute; /* Posición relativa para hojas */
+        left: 1200%; /* Centra la flor horizontalmente */
+        top: 250%;
+      }
+    
+      /* Crear hojas */
+      .hoja {
+        position: absolute; /* Posición absoluta para las hojas */
+        width: 20px; /* Ancho de la hoja */
+        height: 20px; /* Altura de la hoja */
+        background-color: green; /* Color de la hoja */
+        border-radius: 50%; /* Forma circular */
+      }
+    
+      /* Hoja izquierda */
+      .hoja.left {
+        top: -10px; /* Alineación vertical */
+        left: -10px; /* Alineación horizontal */
+      }
+    
+      /* Hoja derecha */
+      .hoja.right {
+        top: -10px; /* Alineación vertical */
+        right: -10px; /* Alineación horizontal */
+      }
+      .maceta {
+        top: 40px; /* Alineación vertical */
+        right: 40px; /* Alineación horizontal */
+        width: 100px; /* Ancho de la maceta */
+        height: 120px; /* Altura de la maceta */
+        background-color: #8b5a2b; /* Color marrón de la maceta */
+        border-radius: 10px; /* Bordes redondeados */
+        position: relative; /* Posición relativa para las flores */
+        margin: 20px auto; /* Centrar la maceta horizontalmente */
+        overflow: hidden; /* Ocultar partes de las flores que se salgan */
+      }
+    
+      .maceta:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 15px;
+        background-color: #4d2a0c; /* Color oscuro para la parte superior de la maceta */
+        bottom: 0;
+        border-bottom-left-radius: 10px; /* Bordes redondeados en la parte inferior izquierda */
+        border-bottom-right-radius: 10px; /* Bordes redondeados en la parte inferior derecha */
+      }
